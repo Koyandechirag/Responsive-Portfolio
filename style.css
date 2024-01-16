@@ -299,9 +299,10 @@ section {
     bottom: 0;
     left: 240px;
     width: 410px;
-    height: 600px;
+    height: 560px;
     background: beige;
-    margin: 50px 800px;
+    margin: 70px 800px;
+    margin-left: 830px;
     pointer-events: none;
     object-fit: cover;
     border-radius: 10%;
@@ -576,7 +577,7 @@ span {
 
     .home .profession-container .profession-box {
         right: -12rem;
-        height: 85.8rem;
+        height: 89.8rem;
     }
 
     .home .profession-container .overlay {
@@ -820,8 +821,10 @@ span {
     }
     .home .profession-box .profession:nth-child(3) {
         transform: rotate(90deg) translate(-10p5x, -440px);
+        width: 237px;
     }
     .home .profession-box .profession:nth-child(4) {
+        width: 215px;
         transform: rotate(180deg) translate(-210px, -355px);
     }
 
