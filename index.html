@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:12;" class="active">Home</a>
+            <a href="#about" style="--i:13;">About</a>
+            <a href="#skills" style="--i:14;">Skills</a>
+            <a href="#portfolio" style="--i:15;">Porfolio</a>
+            <a href="#contact" style="--i:16;">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Chirag Govind Koyande</h1>
+            <p>A Computer Engineer.</p>
+
+            <div class="social-media">
+                <a href="#" style="--i:7;"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" style="--i:8;"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" style="--i:9;"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#" style="--i:10;"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+            <a href="file:///C:/Users/koyan/AppData/Local/Microsoft/Windows/INetCache/IE/LSBCTHOM/Chirag%20Koyande%20Resume[1].pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxl-python' ></i>
+                    <h3>Python Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-curly' ></i>
+                    <h3>.Net Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxl-stack-overflow' ></i>
+                    <h3>Full Stack Developer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="../photo.JPG" alt="">
+        </div>
+    </section>
+        
+  <section class="about" id="about">
+        <div class="about-img">
+            <img src="../flip.JPG" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here to Help your Next Project!</h3>
+            <p>As a recent graduate in Bachelors in Engineering with a passion for coding and problem solving, I am seeking a position as a Full Stack Developer to leverage my skills in both front-end and back-end development. Eager to contribute my skills and passion for coding to a dynamic development team.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+        <div class="skills-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <p>HTML: HTML stands for HyperText Markup Language. It is used to design the front end portion of web pages using markup language. It acts as a skeleton for a website since it is used to make the structure of a website.
+                CSS: Cascading Style Sheets fondly referred to as CSS is a simply designed language intended to simplify the process of making web pages presentable. It is used to style our website.
+                JavaScript: JavaScript is a scripting language used to provide a dynamic behavior to our website.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="skills-box">
+            <i class='bx bxl-python' ></i>
+            <h3>Python Developer</h3>
+            <p>Python is a programming language used for a variety of programming tasks, including artificial intelligence (AI), machine learning, data analytics, and data visualization. Other uses include programming applications, web development, game development, quantitative and qualitative analysis, creating new programming languages, and developing graphic design applications. Python developers design, code, and deploy development projects in the Python language. They also work on debugging those same projects to ensure they function as intended.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="skills-box">
+            <i class='bx bx-code-curly' ></i>
+            <h3>.Net Developer</h3>
+            <p>A .Net developer is a software engineer who builds applications using the .NET framework and Microsoft technology stack. A dotnet developer is a programmer having strong skills and understanding of the .NET platform.
+                Dot net developer is responsible for creating software solutions in line with business needs. They are skilled programmers who develop end-to-end software products that include design, development, testing, deployment, and maintenance.
+                They work with Microsoft’s programming languages such as C#, F#, and Visual Basic and are experts in Microsoft’s .NET framework.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+  </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="../tictactoe.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Tic Tac Toe Game</h4>
+                    <p>Using HTML, CSS & JavaScript.</p>
+                    <a href="https://koyandechirag.github.io/Tic-Tac-Toe-Game/"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="../calculator.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>Using HTML, CSS & JavaScript.</p>
+                    <a href="https://koyandechirag.github.io/Calculator/"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img id="cc" src="../Currency-Converter.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Currency Converter</h4>
+                    <p>Using HTML, CSS & JavaScript.</p>
+                    <a href="https://koyandechirag.github.io/Currency-Converter/"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copywright &copy; 2024 by Chirag Koyande | All Rights Reserved. </p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
