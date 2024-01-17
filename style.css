@@ -845,7 +845,7 @@ span {
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 63%;
+        top: 65%;
         left: 0;
         border-radius: 0;
         width: 100%;
@@ -887,7 +887,7 @@ span {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 93rem;
+        top: 72rem;
         left: 48%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -922,6 +922,13 @@ span {
 }
 
 @media (max-width: 617px) {
+    #darkMode-icon {
+        display: block;
+        right: 3rem;
+        font-size: 2.6rem;
+        color: var(--text-color);
+       
+    }
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
     }
@@ -944,6 +951,14 @@ span {
         width: 215px;
         transform: rotate(180deg) translate(-210px, -355px);
     }
+    .home .profession-container .overlay {
+        position: fixed;
+        top: 72rem;
+        left: 49%;
+        right: 0;
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
+        border-width: 23.9rem;
+    }
 
 }
 
@@ -957,7 +972,7 @@ span {
     }
 
     #darkMode-icon {
-        right: 6rem;
+        display: block;
     }
 
     .home {
@@ -984,7 +999,7 @@ span {
     }
     .home .profession-container .overlay {
         position: fixed;
-        top: 86rem;
+        top: 80rem;
         left: 48%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -993,6 +1008,11 @@ span {
 }
 
 @media (max-width: 365px) {
+    #darkMode-icon {
+        display: block;
+        right: 10rem;
+    }
+
     .about-img img {
         width: 90vw;
     }
@@ -1034,8 +1054,9 @@ span {
     }
 
     .home .profession-container .overlay {
+        display: block;
         position: fixed;
-        top: 91rem;
+        top: 80rem;
         left: 48%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
