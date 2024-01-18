@@ -624,6 +624,33 @@ span {
     margin-bottom: 3rem;
 }
 
+.contact .label-box {
+    margin: 30px;
+    margin-left: 300px;
+    color: var(--main-color);
+    height: 50px; 
+}
+
+.contact .label-box1 {
+    margin: 40px;
+    margin-left: 300px;
+    color: var(--main-color);
+    height: 50px; 
+}
+
+.contact .icon {
+    font-size: 16px;
+}
+
+.contact .text h3 {
+    font-size: 15px;
+}
+
+.contact .text p {
+    font-size: 17px;
+    color: var(--text-color);
+}
+
 .input-box input {
     border: .1rem solid var(--shadow-color);
 }
@@ -919,6 +946,14 @@ span {
     .portfolio .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .contact .label-box {
+        margin-left: 60px;
+    }
+
+    .contact .label-box1 {
+        margin-left: 60px;
+    }
 }
 
 @media (max-width: 617px) {
@@ -953,11 +988,19 @@ span {
     }
     .home .profession-container .overlay {
         position: fixed;
-        top: 87rem;
+        top: 72rem;
         left: 49%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
+    }
+
+    .contact .label-box {
+        margin-left: 10px;
+    }
+
+    .contact .label-box1 {
+        margin-left: 10px;
     }
 
 }
@@ -997,6 +1040,15 @@ span {
     .contact form .input-box input {
         width: 100%;
     }
+
+    .contact .label-box {
+        margin-left: 10px;
+    }
+
+    .contact .label-box1 {
+        margin-left: 10px;
+    }
+
     .home .profession-container .overlay {
         position: fixed;
         top: 80rem;
