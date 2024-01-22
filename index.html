@@ -37,7 +37,7 @@
                 <a href="https://www.linkedin.com/in/chirag-koyande-1930b1285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="--i:10;"><i class='bx bxl-linkedin' ></i></a>
             </div>
 
-            <a href="file:///C:/Users/koyan/AppData/Local/Microsoft/Windows/INetCache/IE/LSBCTHOM/Chirag%20Koyande%20Resume[1].pdf" class="btn">Download CV</a>
+            <a href="./Chirag Koyande Resume.pdf" download class="btn">Download CV</a>
         </div>
 
         <div class="profession-container">
@@ -202,18 +202,19 @@
                 <p>9702130705</p>
             </div>
         </div>
-        <form action="#">
+        <form name="submit-to-google-sheet" action="#">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text"v name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="Number" placeholder="Mobile Number">
+                <input type="text" name="Email Subject" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
+        <span id="msg">Message sent successfully</span>
     </section>
 
     <footer class="footer">
