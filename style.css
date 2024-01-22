@@ -261,8 +261,6 @@ section {
     padding-bottom: 20px;
 }
 
-
-
 .home .profession i {
     font-size: 3.8rem;
 }
@@ -290,9 +288,6 @@ section {
     border-left: 384px solid transparent;
     border-bottom: 384px solid var(--main-color);
     border-right: 384px solid var(--main-color);
-    /* opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 1.5s; */
 }
 
 .home-img img {
@@ -872,7 +867,7 @@ span {
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 65%;
+        top: 67%;
         left: 0;
         border-radius: 0;
         width: 100%;
@@ -988,7 +983,7 @@ span {
     }
     .home .profession-container .overlay {
         position: fixed;
-        top: 72rem;
+        top: 87rem;
         left: 49%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -1051,7 +1046,7 @@ span {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 80rem;
+        top: 84rem;
         left: 48%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
