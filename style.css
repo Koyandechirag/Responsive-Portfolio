@@ -28,6 +28,7 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -682,6 +683,14 @@ span {
     cursor: pointer;
 }
 
+#msg {
+    color: #61b752;
+    margin-left: 520px;
+    margin-top: -10px;
+    display: block;
+    font-size: large;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -791,6 +800,12 @@ span {
         min-height: auto;
     }
 
+    #msg {
+        display: block;
+        font-size: large;
+        margin-left: 250px;
+    }
+
     .footer {
         padding: 2rem 3%;
     }
@@ -867,7 +882,7 @@ span {
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 67%;
+        top: 58%;
         left: 0;
         border-radius: 0;
         width: 100%;
@@ -909,7 +924,7 @@ span {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 72rem;
+        top: 109rem;
         left: 48%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -949,6 +964,11 @@ span {
     .contact .label-box1 {
         margin-left: 60px;
     }
+    #msg {
+        display: block;
+        font-size: large;
+        margin-left: 234px;
+    }
 }
 
 @media (max-width: 617px) {
@@ -967,6 +987,14 @@ span {
         display: flex;
     }
 
+    .home .profession-container .profession-box {
+        position: fixed;
+        top: 62%;
+        left: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+
     .home .profession-box .profession:nth-child(1) {
         transform: rotate(-90deg) translate(-110px, -220px);
     }
@@ -981,9 +1009,11 @@ span {
         width: 215px;
         transform: rotate(180deg) translate(-210px, -355px);
     }
+
+
     .home .profession-container .overlay {
         position: fixed;
-        top: 87rem;
+        top: 109rem;
         left: 49%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -998,9 +1028,15 @@ span {
         margin-left: 10px;
     }
 
+    #msg {
+        display: block;
+        font-size: large;
+        margin-left: 57px;
+    }
+
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     html {
         font-size: 50%;
     }
@@ -1011,6 +1047,7 @@ span {
 
     #darkMode-icon {
         display: block;
+        margin-right: 60px;
     }
 
     .home {
@@ -1044,9 +1081,76 @@ span {
         margin-left: 10px;
     }
 
+    #msg {
+        display: block;
+        font-size: large;
+        margin-left: 57px;
+    }
+
     .home .profession-container .overlay {
         position: fixed;
-        top: 84rem;
+        top: 92rem;
+        left: 48%;
+        right: 0;
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
+        border-width: 23.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 50%;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    #darkMode-icon {
+        display: block;
+        margin-right: 60px;
+    }
+
+    .home {
+        padding: 0 3% 30rem;
+    }
+
+    .home .profession-box .profession:nth-child(1) {
+        transform: rotate(-90deg) translate(-110px, -220px);
+    }
+    .home .profession-box .profession:nth-child(2) {
+        transform: rotate(0deg) translate(5px, -335px);
+    }
+    .home .profession-box .profession:nth-child(3) {
+        transform: rotate(90deg) translate(-10p5x, -440px);
+        width: 237px;
+    }
+    .home .profession-box .profession:nth-child(4) {
+        width: 215px;
+        transform: rotate(180deg) translate(-210px, -355px);
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+
+    .contact .label-box {
+        margin-left: 20px;
+    }
+
+    .contact .label-box1 {
+        margin-left: 20px;
+    }
+
+    #msg {
+        display: block;
+        font-size: large;
+        margin-left: 70px;
+    }
+
+    .home .profession-container .overlay {
+        position: fixed;
+        top: 86rem;
         left: 48%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -1103,7 +1207,7 @@ span {
     .home .profession-container .overlay {
         display: block;
         position: fixed;
-        top: 80rem;
+        top: 92rem;
         left: 48%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -1112,6 +1216,12 @@ span {
 
     .contact form .input-box input {
         width: 100%;
+    }
+
+    #msg {
+        display: block;
+        font-size: large;
+        margin-left: 30px;
     }
 }
 
