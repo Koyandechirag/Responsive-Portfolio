@@ -685,7 +685,7 @@ span {
 
 #msg {
     color: #61b752;
-    margin-left: 530px;
+    margin-left: 520px;
     margin-top: -10px;
     display: block;
     font-size: large;
@@ -989,7 +989,7 @@ span {
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 68%;
+        top: 66%;
         left: 0;
         border-radius: 0;
         width: 100%;
