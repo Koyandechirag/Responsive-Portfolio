@@ -116,6 +116,8 @@ section {
     padding: 10rem 7% 2rem;
 }
 
+
+/* Home Section */
 .home {
     display: flex;
     align-items: center;
@@ -303,11 +305,13 @@ section {
     pointer-events: none;
     object-fit: cover;
     border-radius: 10%;
-    /* opacity: 0;
+    opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: 2.8s; */
+    animation-delay: 2.8s;
 }
 
+
+/* About Section */
 span {
     color: var(--main-color);
 }
@@ -326,7 +330,7 @@ span {
     height: 500px;
     pointer-events: none;
     object-fit: cover;
-    border-radius: 40%;
+    border-radius: 30%;
 }
 
 .heading {
@@ -339,8 +343,9 @@ span {
     line-height: 1.2;
 }
 
-.about-content h2 {
-    font-size: 4rem;
+.about-content h3 {
+    margin-top: 2px;
+    font-size: 2rem;
 }
 
 .about-content p {
@@ -348,6 +353,9 @@ span {
     margin: 2rem 0 3rem;
 }
 
+
+
+/* Skills Section */
 .skills {
     min-height: auto;
     padding-bottom: 7rem;
@@ -458,7 +466,7 @@ span {
 .bar {
     background: var(--main-color);
     display: block;
-    height: 20px;
+    height: 10px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
@@ -530,6 +538,7 @@ span {
 
 
 
+/* Portfolio Section */
 .portfolio {
     padding-bottom: 10rem;
 }
@@ -609,6 +618,9 @@ span {
     color: #333;
 }
 
+
+
+/* Contact Section */
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -727,7 +739,9 @@ span {
 }
 
 
+
 /* BREAKPOINTS */
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
