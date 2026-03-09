@@ -87,21 +87,17 @@ http://localhost:8000
 
 ## 📸 Screenshots
 
-Add screenshots of your portfolio here.
+### 🏠 Home Section
+![Portfolio Screenshot 1](https://github.com/user-attachments/assets/ea8eedd8-480d-493d-96ad-ce8c548a733c)
 
-Example:
+### 👨‍💻 About Section
+![Portfolio Screenshot 2](https://github.com/user-attachments/assets/d9414704-b46b-40ce-b6d9-fbfa9bfe79a1)
 
-```
-![Portfolio Screenshot]
-<img width="2479" height="1477" alt="image" src="https://github.com/user-attachments/assets/ea8eedd8-480d-493d-96ad-ce8c548a733c" />
+### 👨‍💻 About Section
+![Portfolio Screenshot 3](https://github.com/user-attachments/assets/b3cc3013-0b7c-4e90-a3a9-a4b2b757dffc)
 
-<img width="2479" height="1477" alt="image" src="https://github.com/user-attachments/assets/d9414704-b46b-40ce-b6d9-fbfa9bfe79a1" />
-
-<img width="2479" height="1477" alt="image" src="https://github.com/user-attachments/assets/b3cc3013-0b7c-4e90-a3a9-a4b2b757dffc" />
-
-<img width="2479" height="1477" alt="image" src="https://github.com/user-attachments/assets/2777e28e-85d5-428b-9469-ef1d29559a48" />
-
-```
+## 📬 Contact Section
+![Portfolio Screenshot 4](https://github.com/user-attachments/assets/2777e28e-85d5-428b-9469-ef1d29559a48)
 
 ---
 
