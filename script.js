@@ -76,10 +76,10 @@ ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
 
 
-var typed = new Typed(".multiple-text",{
-strings:["Full Stack Developer","Web Developer","Python Developer"],
-typeSpeed:100,
-backSpeed:100,
-backDelay:1000,
-loop:true
+var typed = new Typed(".multiple-text", {
+    strings: ["Full Stack Developer", "Web Developer", "Python Developer", ".NET Developer"],
+    typeSpeed: 80,
+    backSpeed: 60,
+    backDelay: 1000,
+    loop: true
 });

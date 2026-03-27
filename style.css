@@ -22,7 +22,7 @@
 .dark-mode {
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
-    --shadow-color: #rgba(0, 0, 0, .7);
+    --shadow-color: rgba(0, 0, 0, .7);
 }
 
 html {
@@ -206,6 +206,11 @@ section {
     background: transparent;
     color: var(--main-color);
     border-color: var(--main-color);
+}
+
+.btn-group {
+    display: flex;
+    gap: 1.5rem;
 }
 
 .home .profession-container {
